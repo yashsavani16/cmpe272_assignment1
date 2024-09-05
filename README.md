@@ -10,6 +10,43 @@ The goal of this assignment is to get you familiar with the basic concepts of mi
 - Spring Boot<br>
 - Docker<br>
 - Kubernetes<br>
+
+## Setting Up the Development Environment
+
+### 1. Programming language: Java
+
+-	To setup java version, download and install latest version of JDK in your system.
+-	Set JDK bin path in environment variable.
+-	After that check its completely installed or not, for that write “java –version” command in terminal and check the version of it.
+
+### 2. Framework: Spring Boot
+
+-	Go to https://start.spring.io/ website to initialize spring project
+-	Select<br> 
+  o	Project-Maven<br>
+  o	Spring Boot-3.3.3<br>
+  o	Project Metadata<br>
+    - Group:<br>
+    -	Artifact:<br> 
+    -	Name:<br> 
+    -	Packaging:<br> 
+    -	Java:<br> 
+    -	Dependencies:<br> 
+-	Generate the file
+
+### 3. IDE: IntelliJ IDEA CE
+
+-	Download IntelliJ IDEA CE from its official website.
+-	Install it and select default language as Java.
+-	Open project which you generate through Spring initializer.
+-	Develop microservices in it.
+
+### 4. Containerization: Docker
+
+-	Download Docker from its official website.
+-	Create Docker Hub account online.
+-	Login to that account in local machine.
+
 ## How to execute individual directories
 
 ### 1. Execute helloendpoint/ directory
